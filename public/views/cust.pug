@@ -1,0 +1,15 @@
+doctype html
+html(lang="en")
+  head
+    title Customer
+    script(src='/socket.io/socket.io.js')
+  body
+    h1 Customers
+    ul
+      each customer in customers
+        li
+          span
+            label id
+            span #{customer.id}
+    script(src="customer.js")
+      

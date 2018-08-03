@@ -1,0 +1,23 @@
+{
+  "name": "http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "http-server.js",
+  "dependencies": {
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3",
+    "pug": "^2.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node rest-server.js.js",
+    "rest-server": "nodemon rest-server.js",
+    "debug": "nodemon --inspect rest-server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
